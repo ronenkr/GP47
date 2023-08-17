@@ -119,9 +119,16 @@ void ConfigFile::ExtractKeys()
     outfile << std::endl;
     outfile << "#DEBUG = 1" << std::endl;
     outfile << std::endl;
-    outfile << "#   List of process to search for (up to 9 processes)" << std::endl;
-    outfile << "PROCESS1 = Calculator" << std::endl;
-    outfile << "PROCESS2 = Calculator2" << std::endl;
+    outfile << "#   List of window titles to search for (up to 9 processes)" << std::endl;
+    outfile << "PROCESS1 = xemu" << std::endl;
+    outfile << "PROCESS2 = PCSX2" << std::endl;
+    outfile << "#PROCESS3 = PCSX2" << std::endl;
+    outfile << "#PROCESS4 = PCSX2" << std::endl;
+    outfile << "#PROCESS5 = PCSX2" << std::endl;
+    outfile << "#PROCESS6 = PCSX2" << std::endl;
+    outfile << "#PROCESS7 = PCSX2" << std::endl;
+    outfile << "#PROCESS8 = PCSX2" << std::endl;
+    outfile << "#PROCESS9 = PCSX2" << std::endl;
     outfile << "#   More process can be added here" << std::endl;
     // End config dump
 
