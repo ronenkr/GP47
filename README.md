@@ -11,3 +11,5 @@ config.ini file will be generated in the same directory if it does not exist.
 Add new program to the termination list:
 
 PROCESS3 = xemu # will search for xemu in all windows titles and terminate it
+
+This project borowed heavily from: https://github.com/Tylemagne/Gopher360
